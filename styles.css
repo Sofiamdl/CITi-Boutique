@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+  }
+
+body{
+    margin: auto;
+}
+
+#main{
+    background-image: url("img/Grupo\ 15.png");
+    background-size:cover;
+    width:100%;
+    background-position: center;
+    height: 37.5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 32.5rem;
+    height: 2,5rem;
+    border-bottom: 0.125rem solid #E7E9E6;
+    margin-bottom: 3rem;
+}
+
+.logo-branca{
+    padding: 4.375rem 0rem 0rem 6.875rem;
+    height: 5.9375rem;
+}
+
+.texto-nav{
+    margin-right: 4.375rem;
+    padding-bottom: 1rem;
+    justify-content: flex-end;
+    color: #E7E9E6;
+    font-size: 1.5rem;
+    opacity: 1;
+    font-weight: 1;
+    text-decoration: none;
+    font-style:none;
+    font-stretch: expanded;
+}
+
+#nav-ponta{
+    margin-right: 7.5rem;
+}
+
+.frase-efeito{
+    margin-top: 9.25rem;
+}
+
+.frase-efeito h2{
+    display: flex;
+    align-content: flex-end;
+    margin: auto;
+    width: 20.75rem;
+    margin-right:11.5rem;
+    color: #E7E9E6;
+    font-size: 4.5125rem;
+    font-weight: 1;
+}
+
+#produtos{
+    background-color: #35363A;
+    height:45.625rem;
+    width: 100%;
+}
+
+.titulo-produtos{
+    display: flex;
+    justify-content: center;
+    color: #B7AB9D;
+    font-size: 3.68rem;
+    height: 3.125rem;
+    margin-top: 0rem;
+    margin-bottom: 3.9rem;
+    padding: 6.25rem 0rem 0.625rem 0.625rem;
+}
+
+.info-produtos{
+    display: flex;
+    justify-content: center;
+}
+
+.o-produto{
+    width: 18.75rem;
+    margin: 0rem 1.25rem 0rem 1.25rem;
+}
+
+.info-desc-produtos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #35363A;
+    font-size: 1.675rem;
+}
+
+.desc-prod{
+    margin:1.25rem 3.9rem 0rem 4.5rem;
+}
+
+.botoes-comprar{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-comprar{
+    margin: 21.25rem 3.75rem 0rem 3.75rem;
+    background-color: #D6C2B7;
+    border: 0.125rem solid #B7AB9D;
+    color:#35363A;
+    padding: 0.9375rem 2.3125rem 0.9375rem 2.3125rem;
+    font-size: 1.875rem;
+    font-weight: 1;
+    font-stretch:extra-expanded;
+    cursor: pointer;
+}
+
+.botao-comprar:hover{
+    background-color:#d4b9aa;
+}
+
+footer{
+    height:15.3125rem;
+    background-color: #E7E9E6;
+    border-bottom:0.1875rem solid #35363A;
+}
+
+#logo-contatos{
+    height: 11.25rem;
+    width: 100%;
+    background-color: #B7AB9D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-preta{
+    padding: 3.125rem 0rem 0rem 6.875rem;
+    height: 5.9375rem;
+}
+
+.contato{
+    display: flex;
+}
+.contatos-foto{
+    list-style: none;
+    padding: 2.5rem 0.7rem 0 0rem;
+}
+
+.o-contato{
+    width:1.3rem;
+    margin-bottom:1rem
+}
+
+#contato-menor{
+    width: 1.2rem;
+}
+
+.desc-contatos{
+    font-size: 1.58rem;
+    color:hsl(228, 5%, 22%);
+    margin-top: 1.8rem;
+    padding-right: 7rem;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.desc-contatos li{
+    margin-bottom: 0.37rem;
+}
+
+.feito-por{
+    color:#35363A;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.55rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:6rem;
+    margin-top: 0.87rem;
+
+}
