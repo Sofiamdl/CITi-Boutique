@@ -192,6 +192,76 @@ footer{
 
 @media (max-width: 1024px){
     html, body { margin:0; height: 100%;}
+    .guardar-o-menu{
+        position: absolute;
+        width: 6rem;
+        height: 6.9rem;
+        cursor:pointer;
+        margin-left: 50.4rem;
+        margin-top: 7rem;
+    }
+
+    .o-menu{
+        width: 5.6rem;
+        height:0.6rem;
+        display: block;
+        margin-right: 5rem;
+        background-color: white;
+        position: absolute;
+    }
+
+    .linha{
+        width: 5.6rem;
+        height:0.6rem;
+        display: block;
+        margin-right: 5rem;
+        background-color: white;
+        margin-top: 2.05rem;
+    }
+
+    .o-menu:before, .o-menu:after{
+        background-color: white;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3.7rem;
+    }
+
+    input{
+        display: none;
+    }
+    input:checked~ label .o-menu{
+        transform: rotate(45deg);
+        display: flex;
+        margin-top: 1.9375rem;
+    }
+
+    input:checked ~ label .linha{
+        transform: rotate(135deg)
+    }
+
+    input:checked ~ label .fundo-menu{
+        background-color: #35363A;
+        position: absolute;
+        margin: 0rem;
+        width: 100%;
+        height: 100%;
+        cursor:default;
+        position: absolute;
+        pointer-events: none;
+    }
+
+
+    input:checked ~ label .texto-nav{
+        color: #B7AB9D;
+        width: auto;
+        height: auto;
+        font-size: 6rem;
+        margin-right:1rem;
+    }
+
+        
     #main{
         background-size: cover;
         background-position: left top;
