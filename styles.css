@@ -14,6 +14,10 @@ body{
     margin: auto;
 }
 
+.texto-menu{
+    font-size: 0rem;
+    display: none;
+}
 #main{
     background-image: url("img/Grupo\ 15.png");
     background-size: cover;
@@ -240,9 +244,34 @@ footer{
         margin-top: 1.9375rem;
     }
 
+
     input:checked ~ label .linha{
         transform: rotate(135deg)
     }
+
+
+    input:checked ~ label  .opcoes-menu{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input:checked ~ label .texto-menu{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 30rem;
+        height: 8rem;
+        margin-bottom: 10%;
+        font-size: 6rem;
+        color:#B7AB9D;
+        text-decoration: none;
+    }
+
 
     input:checked ~ label .fundo-menu{
         background-color: #35363A;
@@ -254,16 +283,6 @@ footer{
         position: absolute;
         pointer-events: none;
     }
-
-
-    input:checked ~ label .texto-nav{
-        color: #B7AB9D;
-        width: auto;
-        height: auto;
-        font-size: 6rem;
-        margin-right:1rem;
-    }
-
         
     #main{
         background-size: cover;
@@ -434,10 +453,9 @@ footer{
     }
 
     .titulo-produtos{
-        font-size: 6.68rem;
         height: 3.125rem;
         margin-bottom: 9.9rem;
-        padding: 9.25rem 0rem 0.625rem 0.625rem;
+        padding: 9.35rem 0rem 0.725rem 0.725rem;
     }
     
     .produto1,.produto2,.produto3{
@@ -446,21 +464,21 @@ footer{
     }
     
     .o-produto{
-        width: 34.75rem;
+        width: 30.75rem;
     }
     
     
     .desc-prod{
-        font-size: 2.975rem;
-        margin:2.25rem 0 0rem 0;
+        font-size: 2.575rem;
+        margin:2.3rem 0 0rem 0;
     }
     
     
     .botao-comprar{
-        margin: 39rem 0rem 0rem 0rem;
+        margin: 34.5rem 0rem 0rem 0rem;
         border: 0.2rem solid #B7AB9D;
-        padding: 2rem 5.3125rem 2rem 5.3125rem;
-        font-size: 3.2rem;
+        padding: 1.6rem 4.7rem 1.6rem 4.7rem;
+        font-size: 2.7rem;
     }
     
     footer{
