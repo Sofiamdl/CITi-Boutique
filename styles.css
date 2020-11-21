@@ -2,15 +2,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
-  }
+}
 
+#menu-hamburguer{
+    height: 0rem;
+    width: 0rem;
+    display: none;
+}
 body{
     margin: auto;
 }
 
 #main{
     background-image: url("img/Grupo\ 15.png");
-    background-size:cover;
+    background-size: cover;
     width:100%;
     background-position: center;
     height: 37.5rem;
